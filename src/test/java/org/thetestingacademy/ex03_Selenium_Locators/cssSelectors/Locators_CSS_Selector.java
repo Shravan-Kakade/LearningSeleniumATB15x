@@ -1,4 +1,4 @@
-package org.thetestingacademy.ex03_Selenium_Locators;
+package org.thetestingacademy.ex03_Selenium_Locators.cssSelectors;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -38,5 +38,7 @@ public class Locators_CSS_Selector {
 //  CSS Selector - tag, class - tag.classname
         WebElement submit = driver.findElement(By.cssSelector("button.btn"));
         submit.click();
+
+        driver.quit();
     }
 }
